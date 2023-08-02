@@ -4,9 +4,6 @@
 ![Last Commit](https://img.shields.io/github/last-commit/tabletop-json/testbed/master)
 ![Issues](https://img.shields.io/github/issues/tabletop-json/testbed)
 
-[//]: # (![Contributors]&#40;https://img.shields.io/github/contributors/tabletop-json/testbed&#41;)
-
-
 ---
 
 ## What is this?
