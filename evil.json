@@ -1,0 +1,46 @@
+{
+    "config": {
+        "id": "testbed.1e.evil.config",
+        "type": "config",
+        "rulesetId": "testbed.1e.evil",
+        "name": "Forces of Evil",
+        "enabled": true,
+        "endpoint": "evil.json"
+    },
+    "detachments": [
+        {
+            "id": "testbed.1e.evil.dt.hell",
+            "type": "detachment",
+            "rulesetId": "testbed.1e.evil",
+            "name": "Hell"
+        }
+    ],
+    "units": [
+        {
+            "id": "testbed.1e.evil.unit.devil",
+            "type": "unit",
+            "rulesetId": "testbed.1e.good",
+            "name": "The Devil",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "The Devil",
+                    "points": 666
+                }
+            ]
+        },
+        {
+            "id": "testbed.1e.evil.unit.lawyer",
+            "type": "unit",
+            "rulesetId": "testbed.1e.evil",
+            "name": "Lawyer",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Lawyer",
+                    "points": 555
+                }
+            ]
+        }
+    ]
+}

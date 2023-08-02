@@ -1,0 +1,46 @@
+{
+    "config": {
+        "id": "testbed.1e.good.config",
+        "type": "config",
+        "rulesetId": "testbed.1e.good",
+        "name": "Forces of Good",
+        "enabled": true,
+        "endpoint": "good.json"
+    },
+    "detachments": [
+        {
+            "id": "testbed.1e.good.dt.heaven",
+            "type": "detachment",
+            "rulesetId": "testbed.1e.good",
+            "name": "Heaven"
+        }
+    ],
+    "units": [
+        {
+            "id": "testbed.1e.good.unit.god",
+            "type": "unit",
+            "rulesetId": "testbed.1e.good",
+            "name": "God",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "God",
+                    "points": 999
+                }
+            ]
+        },
+        {
+            "id": "testbed.1e.good.unit.angel",
+            "type": "unit",
+            "rulesetId": "testbed.1e.good",
+            "name": "Angel",
+            "role": "CHARACTER",
+            "models": [
+                {
+                    "name": "Angel",
+                    "points": 888
+                }
+            ]
+        }
+    ]
+}

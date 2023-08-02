@@ -1,0 +1,26 @@
+{
+    "id": "testbed.1e",
+    "version": "0.0.2",
+    "updateNotes": "Misc bugfixes",
+    "name": "Testbed: 1st Edition",
+    "enabled": true,
+    "path": "https://raw.githubusercontent.com/tabletop-json/tabletop-datafiles/develop/testbed/",
+    "configs": [
+        {
+            "id": "testbed.1e.good.config",
+            "type": "config",
+            "rulesetId": "testbed.1e.good",
+            "name": "Forces of Good",
+            "enabled": true,
+            "endpoint": "good.json"
+        },
+        {
+            "id": "testbed.1e.evil.config",
+            "type": "config",
+            "rulesetId": "testbed.1e.evil",
+            "name": "Forces of Evil",
+            "enabled": true,
+            "endpoint": "evil.json"
+        }
+    ]
+}
